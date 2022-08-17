@@ -1,0 +1,33 @@
+{
+  "name": "tto-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version": "lerna version --conventional-commits",
+    "publish": "lerna publish from-git",
+    "eslint": "eslint ./packages --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detechworld/tto-packages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detechworld/tto-packages/issues"
+  },
+  "homepage": "https://github.com/detechworld/tto-packages#readme",
+  "dependencies": {
+    "lerna": "^5.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
