@@ -19,10 +19,11 @@ This repo contains all npm modules that are used on TTO
 
 #### Before publishing:
 
-1. Crate Github Personal Access Token:
+1. Install lerna globally
+2. Crate Github Personal Access Token:
    - Login to your Github account > Settings > Developer Settings > Personal access tokens
    - Scopes: write:packages
-2. Login to npm.pkg.github.com
+3. Login to npm.pkg.github.com
    ```
    npm login --scope=@detechworld --registry=https://npm.pkg.github.com
    ```
@@ -40,18 +41,18 @@ This repo contains all npm modules that are used on TTO
      ```
    - To publish major version provide such commit message:
      ```
-     feat(package-name)!: changes desciption
+     feat(package-name): changes desciption
 
      BREAKING CHANGE: describe breaking changes
      ```
 
 2. Create new package version:
    ```
-   npm run version
+   lerna version
    ```
 3. Publish new package version:
    ```
-   npm run publish
+   lerna publish
    ```
 
 ### Possible improvements:

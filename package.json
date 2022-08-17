@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "version": "lerna version --conventional-commits",
-    "publish": "lerna publish from-git",
-    "eslint": "eslint ./packages --fix"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/detechworld/tto-packages.git"
@@ -24,10 +20,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "devDependencies": {
-    "eslint": "^8.22.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
-  }
+  ]
 }
