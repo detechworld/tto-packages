@@ -52,7 +52,7 @@ This repo contains all npm modules that are used on TTO
    ```
 3. Publish new package version:
    ```
-   lerna publish
+   lerna publish from-git
    ```
 
 ### Possible improvements:
