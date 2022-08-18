@@ -1,0 +1,32 @@
+{
+  "name": "@detechworld/lib-crypto",
+  "version": "1.0.0",
+  "description": "STEEM libcrypto-js CLONE https://github.com/steemit/libcrypto-js",
+  "main": "lib/crypto.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prepublish": "./scripts/build.js",
+    "clean": "rm -Rf lib",
+    "fmt": "prettier --write '{src,scripts}/**/*.js' && eslint '{src,scripts}/**/*.js'",
+    "build": "./scripts/build.js",
+    "sjcl-test": "./scripts/test.js",
+    "test": "./scripts/build.js && ./scripts/test.js && ./scripts/test.js && tape 'test/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detechworld/tto-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detechworld/tto-packages/issues"
+  },
+  "homepage": "https://github.com/detechworld/tto-packages#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "prettier": "~1.8.2",
+    "tape": "^4.8.0"
+  }
+}
