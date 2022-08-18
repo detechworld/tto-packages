@@ -1,6 +1,6 @@
 {
   "name": "@detechworld/lib-crypto",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "STEEM libcrypto-js CLONE https://github.com/steemit/libcrypto-js",
   "main": "lib/crypto.js",
   "directories": {
