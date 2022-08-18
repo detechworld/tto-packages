@@ -1,6 +1,6 @@
 {
   "name": "@detechworld/auth-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sets of endpoints for authorization",
   "main": "index.js",
   "directories": {
