@@ -6,12 +6,6 @@ This repo contains all npm modules that are used on TTO
 
 1. Create new package folder in packages
 2. Init npm module by running command ```npm init --scope=@detechworld```
-3. Add publish config to the package.json
-   ```
-   "publishConfig": {
-       "registry": "https://npm.pkg.github.com"
-    }
-   ```
 
 ### How to publish new npm package or new version?
 

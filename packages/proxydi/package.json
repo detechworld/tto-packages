@@ -1,0 +1,32 @@
+{
+  "name": "@detechworld/proxydi",
+  "version": "1.0.0",
+  "description": "Transferring configs between modules",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detechworld/tto-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detechworld/tto-packages/issues"
+  },
+  "homepage": "https://github.com/detechworld/tto-packages#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@detechworld/toolbox": "1.1.0"
+  }
+}
