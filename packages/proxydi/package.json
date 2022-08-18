@@ -1,6 +1,6 @@
 {
   "name": "@detechworld/proxydi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Transferring configs between modules",
   "main": "index.js",
   "directories": {
