@@ -1,6 +1,6 @@
 {
   "name": "@detechworld/expertise-contributions-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Set of endpoints to fetch Expertise Contribution",
   "main": "index.js",
   "directories": {
