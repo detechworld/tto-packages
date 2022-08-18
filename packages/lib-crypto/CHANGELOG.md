@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/detechworld/tto-packages/compare/@detechworld/lib-crypto@1.1.0...@detechworld/lib-crypto@1.2.0) (2022-08-18)
+
+
+### Features
+
+* **lib-crypto:** Add babel config ([70b6849](https://github.com/detechworld/tto-packages/commit/70b684936300fb1c461f38d6a08e47bd356aba44))
+
+
+
+
+
 # 1.1.0 (2022-08-18)
 
 
