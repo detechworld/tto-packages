@@ -1,0 +1,44 @@
+{
+  "name": "@detechworld/research-group-service",
+  "version": "1.0.0",
+  "description": "Set of endpoints to fetch Research Group",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detechworld/tto-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detechworld/tto-packages/issues"
+  },
+  "homepage": "https://github.com/detechworld/tto-packages#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@detechworld/access-service": "1.1.0",
+    "@detechworld/blockchain-service": "1.1.0",
+    "@detechworld/http-service": "1.2.0",
+    "@detechworld/proposals-service": "1.1.0",
+    "@detechworld/research-content-service": "1.1.0",
+    "@detechworld/rpc-client": "1.3.0",
+    "@detechworld/toolbox": "1.1.0",
+    "@detechworld/users-service": "1.1.0",
+    "@detechworld/lib-crypto": "1.2.0",
+    "lodash": "^4.17.5"
+  },
+  "peerDependencies": {
+    "@detechworld/app-config-service": "^1.1.0"
+  }
+}
