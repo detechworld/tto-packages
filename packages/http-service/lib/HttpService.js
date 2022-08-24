@@ -14,7 +14,7 @@ class HttpService extends Singleton {
     return this._axiosInstance
       ? this._axiosInstance
       : this._axiosInstance = axios.create({
-        baseURL: this.proxydi.get('env').DEIP_SERVER_URL,
+        baseURL: this.proxydi.get('env').SERVER_URL,
         headers: {
           'Content-Type': 'application/json',
           'deip-application': this.proxydi.get('env').APP_ID
