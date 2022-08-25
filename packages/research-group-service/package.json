@@ -1,6 +1,6 @@
 {
   "name": "@detechworld/research-group-service",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Set of endpoints to fetch Research Group",
   "main": "index.js",
   "directories": {
@@ -28,12 +28,12 @@
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@detechworld/access-service": "1.1.0",
-    "@detechworld/blockchain-service": "^1.1.5",
+    "@detechworld/blockchain-service": "^1.1.6",
     "@detechworld/http-service": "^1.3.0",
     "@detechworld/lib-crypto": "^1.3.0",
-    "@detechworld/proposals-service": "^1.1.5",
-    "@detechworld/research-content-service": "^1.1.5",
-    "@detechworld/rpc-client": "^1.7.0",
+    "@detechworld/proposals-service": "^1.1.6",
+    "@detechworld/research-content-service": "^1.1.6",
+    "@detechworld/rpc-client": "^1.8.0",
     "@detechworld/toolbox": "1.1.0",
     "@detechworld/users-service": "^1.1.1",
     "lodash": "^4.17.5"

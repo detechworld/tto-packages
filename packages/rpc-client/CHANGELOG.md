@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/detechworld/tto-packages/compare/@detechworld/rpc-client@1.7.0...@detechworld/rpc-client@1.8.0) (2022-08-25)
+
+
+### Features
+
+* RPC client small change ([11c19fe](https://github.com/detechworld/tto-packages/commit/11c19fe9a907bee351723d362f2261692a1ec6e6))
+
+
+
+
+
 # [1.7.0](https://github.com/detechworld/tto-packages/compare/@detechworld/rpc-client@1.6.0...@detechworld/rpc-client@1.7.0) (2022-08-25)
 
 
