@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2022-08-25)
+
+
+### Features
+
+* **assets-service:** Init Assets service package ([5ae8839](https://github.com/detechworld/tto-packages/commit/5ae88393047858438e92c5d3cfde683134059db8))
+
+
+
+
+
 ## [1.1.6](https://github.com/detechworld/tto-packages/compare/@detechworld/assets-service@1.1.5...@detechworld/assets-service@1.1.6) (2022-08-25)
 
 **Note:** Version bump only for package @detechworld/assets-service

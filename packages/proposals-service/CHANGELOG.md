@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2022-08-25)
+
+
+### Features
+
+* **proposals-service:** Init Proposals service package ([3dda253](https://github.com/detechworld/tto-packages/commit/3dda253f3e4725ae73f44cc0407b05439fa6ce78))
+
+
+
+
+
 ## [1.1.6](https://github.com/detechworld/tto-packages/compare/@detechworld/proposals-service@1.1.5...@detechworld/proposals-service@1.1.6) (2022-08-25)
 
 **Note:** Version bump only for package @detechworld/proposals-service

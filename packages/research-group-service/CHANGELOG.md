@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2022-08-25)
+
+
+### Features
+
+* **research-content-reviews-service:** Init Research Content Reviews service package ([9de5ebc](https://github.com/detechworld/tto-packages/commit/9de5ebc3e4263dc5c457f86cd5373a9d3127d8c6))
+
+
+
+
+
 ## [1.1.6](https://github.com/detechworld/tto-packages/compare/@detechworld/research-group-service@1.1.5...@detechworld/research-group-service@1.1.6) (2022-08-25)
 
 **Note:** Version bump only for package @detechworld/research-group-service

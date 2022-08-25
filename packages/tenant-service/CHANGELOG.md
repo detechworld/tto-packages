@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2022-08-25)
+
+
+### Features
+
+* **tenant-service:** Init Tenant service package ([1919952](https://github.com/detechworld/tto-packages/commit/191995228d892e0472a2c051e44e47337d662602))
+
+
+
+
+
 ## [1.1.6](https://github.com/detechworld/tto-packages/compare/@detechworld/tenant-service@1.1.5...@detechworld/tenant-service@1.1.6) (2022-08-25)
 
 **Note:** Version bump only for package @detechworld/tenant-service
