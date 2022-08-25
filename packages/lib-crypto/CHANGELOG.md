@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/detechworld/tto-packages/compare/@detechworld/lib-crypto@1.2.0...@detechworld/lib-crypto@1.3.0) (2022-08-25)
+
+
+### Features
+
+* Change DEIP prefix to DT ([71dba0c](https://github.com/detechworld/tto-packages/commit/71dba0cc99dad8eb8e74de173faad25bd436591a))
+
+
+
+
+
 # [1.2.0](https://github.com/detechworld/tto-packages/compare/@detechworld/lib-crypto@1.1.0...@detechworld/lib-crypto@1.2.0) (2022-08-18)
 
 
