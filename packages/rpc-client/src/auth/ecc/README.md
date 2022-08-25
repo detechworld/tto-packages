@@ -8,7 +8,7 @@ import {Address, Aes, PrivateKey, PublicKey, Signature} from "ecc"
 # Configure
 Update `./.npmrc` if you need to change something:
 ```bash
-ecc:default_address_prefix = DEIP
+ecc:default_address_prefix = DT
 ```
 
 # See Also

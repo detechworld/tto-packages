@@ -1,6 +1,6 @@
 sjcl.test.vector.deipsig = [{
         "secretKey": "5JbZ2sNJd2iJ3no6xQha2q9EeguPd6q4wsHdKjmjFyozGYusFtb",
-        "publicKey": "DEIP8g7Shaa7qnkmk1Bs7JRQFqHtb9jHHXXeU9J66RytEDKHUPKebt",
+        "publicKey": "DT8g7Shaa7qnkmk1Bs7JRQFqHtb9jHHXXeU9J66RytEDKHUPKebt",
         "signatures": [{
                 "k": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140",
                 "r": "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
@@ -30,7 +30,7 @@ sjcl.test.vector.deipsig = [{
     },
     {
         "secretKey": "5K4TXCD7UVqvVgqwLLaEoTugn7WJt9FKNHFAhG7LhkwXRQiMYFa",
-        "publicKey": "DEIP6KMdY1G2Jb4mAN4dwfw6g19jRJ75LmjnfmZBFNWaVsC6MH9xqp",
+        "publicKey": "DT6KMdY1G2Jb4mAN4dwfw6g19jRJ75LmjnfmZBFNWaVsC6MH9xqp",
         "signatures": [{
                 "k": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140",
                 "r": "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",

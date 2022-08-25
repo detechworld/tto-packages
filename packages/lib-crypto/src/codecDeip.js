@@ -4,7 +4,7 @@ sjcl.codec.deip = {
     MAINNET: {
         pubHeader: 0x0,
         privHeader: 0x80,
-        pubPrefix: 'DEIP'
+        pubPrefix: 'DT'
     },
     TESTNET: {
         pubHeader: 0x0,

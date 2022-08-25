@@ -61,13 +61,13 @@ describe("deip.auth: types", function() {
     it("public_key sort", function() {
         let mapType = type.map(type.public_key, type.uint16)
         let map = mapType.fromObject([ //not sorted
-            ["DEIP8me6d9PqzTgcoHxx6b4rnvWVTqz11kafidRAZwfacJkcJtfd75", 0],
-            ["DEIP56ankGHKf6qUsQe7vPsXTSEqST6Dt1ff73aV3YQbedzRua8NLQ", 0],
+            ["DT8me6d9PqzTgcoHxx6b4rnvWVTqz11kafidRAZwfacJkcJtfd75", 0],
+            ["DT56ankGHKf6qUsQe7vPsXTSEqST6Dt1ff73aV3YQbedzRua8NLQ", 0],
         ])
         let mapObject = mapType.toObject(map)
         assert.deepEqual(mapObject, [ // sorted (uppercase comes first)
-            ["DEIP56ankGHKf6qUsQe7vPsXTSEqST6Dt1ff73aV3YQbedzRua8NLQ", 0],
-            ["DEIP8me6d9PqzTgcoHxx6b4rnvWVTqz11kafidRAZwfacJkcJtfd75", 0],
+            ["DT56ankGHKf6qUsQe7vPsXTSEqST6Dt1ff73aV3YQbedzRua8NLQ", 0],
+            ["DT8me6d9PqzTgcoHxx6b4rnvWVTqz11kafidRAZwfacJkcJtfd75", 0],
         ])
     })
 

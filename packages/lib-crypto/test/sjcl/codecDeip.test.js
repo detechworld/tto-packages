@@ -39,7 +39,7 @@ new sjcl.test.TestCase("deip signature core functionality", function(cb) {
 
     var keys = {
         sec: sjcl.codec.deip.deserializePrivateKey("5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3"),
-        pub: sjcl.codec.deip.deserializePublicKey("DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq")
+        pub: sjcl.codec.deip.deserializePublicKey("DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq")
     };
 
     var fakehash = sjcl.hash.sha256.hash([1]);
@@ -59,7 +59,7 @@ new sjcl.test.TestCase("deip key codec tests", function(cb) {
         password: "password",
         role: "active",
         sec: "5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3",
-        pub: "DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq"
+        pub: "DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq"
     }];
 
     for (var i = 0; i < testValues.length; i++) {

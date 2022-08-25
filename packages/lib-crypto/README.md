@@ -53,7 +53,7 @@ Provides operations over Deip secp256k1-based ECC private keys.
 > secretKey = crypto.PrivateKey.from('5JCDRqLdyX4W7tscyzyxav8EaqABSVAWLvfi7rdqMKJneqqwQGt')
 PrivateKey { getPublicKey: [Function], sign: [Function] }
 > secretKey.getPublicKey().toString()
-'DEIP5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9'
+'DT5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9'
 > secretSig = secretKey.sign(new Uint8Array(32).buffer)
 ArrayBuffer { byteLength: 65 }
 > crypto.hexify(secretSig)
@@ -64,7 +64,7 @@ ArrayBuffer { byteLength: 65 }
 
 Provides operations over Deip secp256k1-based ECC public keys.
 ```
-> publicKey = crypto.PublicKey.from('DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq')
+> publicKey = crypto.PublicKey.from('DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq')
 ...
 > publicKey.verify(new Uint8Array(32).buffer, secretSig)
 true
@@ -80,7 +80,7 @@ random number generation.
 > crypto.generateKeys()
 {
   private: "5JCDRqLdyX4W7tscyzyxav8EaqABSVAWLvfi7rdqMKJneqqwQGt",
-  public: "DEIP5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9"
+  public: "DT5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9"
 }
 ```
 
@@ -92,13 +92,13 @@ Given a Deip account name and password, regenerates the derived `owner`,
 > crypto.keysFromPassword('username', 'password')
 { owner:
    { private: '5JCDRqLdyX4W7tscyzyxav8EaqABSVAWLvfi7rdqMKJneqqwQGt',
-     public: 'DEIP5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9' },
+     public: 'DT5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9' },
   memo:
    { private: '5JSmQQJXH5ZrSW3KJSTUPFJy7SuLeDiY3bW6vB1McamxzJQFhwD',
-     public: 'DEIP5nwJgD9jmkAdTXuiz3jqrkw3om95gCapZo4e4Bcp3qzyiedwCn' },
+     public: 'DT5nwJgD9jmkAdTXuiz3jqrkw3om95gCapZo4e4Bcp3qzyiedwCn' },
   active:
    { private: '5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3',
-     public: 'DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq' } }
+     public: 'DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq' } }
 ```
 
 ## Requirements

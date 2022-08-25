@@ -21,7 +21,7 @@ test('crypto.generateKeys', function(t) {
     var testHash = new Uint8Array(32).buffer; // 32 0s
     var keys = crypto.generateKeys();
 
-    t.equal(keys.public.slice(0, 4), 'DEIP', 'generated public key is in deip format');
+    t.equal(keys.public.slice(0, 4), 'DT', 'generated public key is in deip format');
 
     var sec = crypto.PrivateKey.from(keys.private);
     var pub = crypto.PublicKey.from(keys.public);
@@ -44,9 +44,9 @@ test('crypto.keysFromPassword', function(t) {
     ];
 
     var publicKeys = [
-        ['owner', 'DEIP5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9'],
-        ['memo', 'DEIP5nwJgD9jmkAdTXuiz3jqrkw3om95gCapZo4e4Bcp3qzyiedwCn'],
-        ['active', 'DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq']
+        ['owner', 'DT5pZ15FDVAvNKW3saTJchWmSSmYtEvA6aKiXwDtCq2JRZV9KtR9'],
+        ['memo', 'DT5nwJgD9jmkAdTXuiz3jqrkw3om95gCapZo4e4Bcp3qzyiedwCn'],
+        ['active', 'DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq']
     ];
 
     var keys = crypto.keysFromPassword('username', 'password');
@@ -69,7 +69,7 @@ test('crypto.PrivateKey', function(t) {
 
     t.equal(
         pub.toString(),
-        'DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq',
+        'DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq',
         'regenerates public key correctly'
     );
 
@@ -84,7 +84,7 @@ test('crypto.PrivateKey', function(t) {
 
 test('crypto.PublicKey', function(t) {
     var priv = crypto.PrivateKey.from('5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3');
-    var pub = crypto.PublicKey.from('DEIP5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq');
+    var pub = crypto.PublicKey.from('DT5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq');
 
     var failures = [];
     for (var i = 0; i < 64; i++) {
